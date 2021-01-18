@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WMS Mobil</string>
+
+
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Utilizator</string>
+    <string name="login_form_password">Utilaj</string>
+    <string name="login_form_login">CONECTARE</string>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:gravity="left"
+            android:text="De la:"
+            android:textSize="19sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textSursa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:gravity="left"
+            android:textSize="19sp"
+            android:text = "Material:"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textMaterialCod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="19sp" />
+
+        <ImageView
+            android:id="@+id/artPreluat"
+            android:layout_width="25dp"
+            android:layout_marginLeft="200px"
+            android:layout_height="25dp"
+            android:src="@drawable/ok_icon"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:gravity="left"
+            android:textSize="19sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textMaterialNume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:gravity="left"
+            android:textSize="19sp"
+            android:text = "Cantitate:"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textCantUmb"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/btnLipsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Lipsa"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10px"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:gravity="left"
+            android:textSize="19sp"
+            android:text="Valabil:"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textDataProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

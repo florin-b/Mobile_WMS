@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.Login"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textTask"
+        android:textStyle="bold"
+        android:layout_marginTop="40px"
+        android:layout_margin="40px"
+        android:layout_marginBottom="100px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Nu exista solicitari." />
+
+
+    <TextView
+        android:id="@+id/textTaskExtern"
+        android:textStyle="bold"
+        android:layout_marginTop="40px"
+
+        android:layout_margin="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Solicitari pentru alte resurse:" />
+
+    <ListView
+        android:id="@+id/listExtraTasks"
+        android:layout_margin="40px"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.6"
+        android:fadeScrollbars="false"
+        />
+
+
+    <Button
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exitButton"
+        android:layout_margin="40px"
+        android:padding="20px"
+        android:text = "Iesire"
+        android:textSize="22sp"/>
+
+</LinearLayout>
